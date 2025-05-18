@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: stretch;
+}
+
+.column { 
+    background: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(46, 46, 177);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+}
